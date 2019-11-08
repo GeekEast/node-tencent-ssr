@@ -5,6 +5,7 @@
 - [腾讯视频node.js改造](#%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91nodejs%E6%94%B9%E9%80%A0)
 - [Nodejs优势](#nodejs%E4%BC%98%E5%8A%BF)
 - [Nodejs使用难点](#nodejs%E4%BD%BF%E7%94%A8%E9%9A%BE%E7%82%B9)
+- [课程设计](#%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -43,7 +44,7 @@
   - **进程**管理
 
 
-课程设计
+### 课程设计
 - `技术选型`
 - `项目开发`
 - `项目维护`
