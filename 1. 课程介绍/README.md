@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table Of Content
+
+- [腾讯视频node.js改造](#%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91nodejs%E6%94%B9%E9%80%A0)
+- [Nodejs优势](#nodejs%E4%BC%98%E5%8A%BF)
+- [Nodejs使用难点](#nodejs%E4%BD%BF%E7%94%A8%E9%9A%BE%E7%82%B9)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### 腾讯视频node.js改造
 - **2015**年开始进行**整站**技术改造
 - Node.js构建介于**后台**服务和**浏览器**前端之间的**中间层**， 即**SSR**
@@ -33,7 +43,7 @@
   - **进程**管理
 
 
-### 课程设计
+课程设计
 - `技术选型`
 - `项目开发`
 - `项目维护`
