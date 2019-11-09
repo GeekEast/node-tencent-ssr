@@ -3,6 +3,9 @@
 ## Table Of Content
 
 - [Definiton](#definiton)
+- [V8 Engine](#v8-engine)
+- [Vanilla JS](#vanilla-js)
+- [Role of Nodejs](#role-of-nodejs)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -12,3 +15,26 @@
 
 - **v8** let `javascript` run in the `browser`
 - **nodejs** combine v8 and **other libraries** to let `javascript` run in `server`.
+### V8 Engine
+- It takes javascipt code and **compile** to machine code.
+- v8 was written in `c++`;
+
+### Vanilla JS
+- `Pure javascript` without any **extra** libraries.
+- The code you wrote in Chrome **console** is vanilla jS
+
+### Role of Nodejs
+- Server
+  - 1. **Create** Sever & listen to incoming requests
+  - 2. `Business Logic`
+    - Access to `Database`
+    - `Authentication`
+    - Input `Validation`
+  - 3. Response
+    - Return rendered HTML or JSON
+- Workflow 
+  - gulp
+  - webpack
+- Desktop Application
+  - Vscode
+  - twitch

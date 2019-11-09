@@ -3,14 +3,14 @@
 ## Table Of Content
 
 - [Web服务](#web%E6%9C%8D%E5%8A%A1)
-  - [腾讯视频](#%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91)
+  - [腾讯视频SSR](#%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91ssr)
   - [构建工作流](#%E6%9E%84%E5%BB%BA%E5%B7%A5%E4%BD%9C%E6%B5%81)
   - [开发工具](#%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ### Web服务
-#### 腾讯视频
+#### 腾讯视频SSR
 - 需求
   - 搜索引擎优化
   - 首屏速度优化
