@@ -12,6 +12,9 @@
   - [Object](#object)
   - [Array](#array)
   - [Spread & Rest](#spread--rest)
+  - [Destructuring](#destructuring)
+  - [Async & Promise](#async--promise)
+  - [Template Literal](#template-literal)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -81,4 +84,65 @@ const new_object = {...old_object};
 const toArray = (...args) => {
   return args;
 }
+```
+
+
+#### Destructuring
+- Object
+```javascript
+const person = {
+  name: "James"
+}
+// core
+const print = ({name}) => console.log(name);
+print(person);
+```
+- Array
+```javascript
+const hobbies = ['sports', 'gym'];
+const [h1, h2, h3] = hobbies;
+// not error, but h3 is undefined.
+console.log(h1, h2, h3);
+```
+
+#### Async & Promise
+- Async
+  - non-blocking
+  ```javascript
+  // async
+  setTimeout(() => console.log('Time out！'), 2000);
+  // sync
+  console.log('hello');
+  console.log('world');
+  ```
+  - blocking: await for **promise** only
+  ```javascript
+  // async
+  const syncRun = async () => {
+  // sync
+  await new Promise(done => setTimeout(() => done(), 2000));
+  console.log('hello');
+  console.log('world');
+  }
+  syncRun();
+  ```
+- Promise
+  - only promise has `then`
+  - only promise has `catch`
+  - `await` only for promise
+```javascript
+const fetchData = () => {
+  const promise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve("done");
+    }, 3000)
+  })
+  return promise;
+}
+```
+
+#### Template Literal
+```javascript
+const country = "china";
+const x = `You are from ${country}`;
 ```
