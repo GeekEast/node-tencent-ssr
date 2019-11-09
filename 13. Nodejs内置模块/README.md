@@ -7,6 +7,7 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ### 内置模块
-- 然后nodejs有能力和操作系统进行交互
+- 让nodejs有能力和操作系统进行交互
+- [10.17.0 Docs](https://nodejs.org/docs/latest-v10.x/api/)
 
-<div style="text-align:center; margin:auto"><img src="img/2019-11-09-17-32-13.png"/></div>
+<div style="text-align:center; margin:auto"><img src="img/2019-11-09-17-38-52.png"></div>
