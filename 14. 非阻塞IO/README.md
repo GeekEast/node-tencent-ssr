@@ -3,19 +3,19 @@
 ## Table Of Content
 
 - [异步](#%E5%BC%82%E6%AD%A5)
-- [异步机制](#%E5%BC%82%E6%AD%A5%E6%9C%BA%E5%88%B6)
+- [机制](#%E6%9C%BA%E5%88%B6)
   - [非阻塞I/O](#%E9%9D%9E%E9%98%BB%E5%A1%9Eio)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ### 异步
 - 绕不开的两点
-  - 事件循环
-  - 非阻塞I/O
+  - **事件循环**
+  - **非阻塞I/O**
 - 结果
   - nodejs的高性能
 
-### 异步机制
+### 机制
 #### 非阻塞I/O
 - 系统在接收`输入`到`输出`期间，还**可以**接收其他输入
   - **阻塞**: 餐厅阿姨从打菜到给菜，中间不能有其他人点菜 
