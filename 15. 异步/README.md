@@ -18,7 +18,6 @@
 - Error-first callback(Node-style callback)
 
 ### 事件循环
-- 每一个新的事件循环都是一个全新的`Call Stack`
 ```javascript
 function interview(callback) {
   setTimeout(() => {
@@ -126,6 +125,7 @@ interview((res) => {
 
 ### 问题
 - **回调地狱这个问题如何用Promise和async/await方式来实现呢？**
+- 每一个新的事件循环都是一个全新的`Call Stack` 是什么意思？
 
 ### References
 - [深入理解事件循环和异步流程控制](https://juejin.im/post/5a2e21486fb9a0450407d370)
