@@ -5,6 +5,7 @@
 - [方法论](#%E6%96%B9%E6%B3%95%E8%AE%BA)
 - [盲点](#%E7%9B%B2%E7%82%B9)
 - [问题](#%E9%97%AE%E9%A2%98)
+- [需求](#%E9%9C%80%E6%B1%82)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -22,6 +23,9 @@
 - 啥玩意叫网页首屏？为啥要提升网页首屏速度？
 - 如何开发自己的API框架？
 - 网络框架的灵活性如何体现？请举例？
-- 网络协议知识
+- 网络协议知识?
+
+### 需求
+- 需要研究深入研究javascript原理，首选`Kyle Simpson`
 
 

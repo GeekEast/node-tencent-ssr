@@ -9,11 +9,11 @@
 
 ### 内置模块
 - 让nodejs有能力和操作系统进行交互
-- [10.17.0 Docs](https://nodejs.org/docs/latest-v10.x/api/)
 
 <div style="text-align:center; margin:auto"><img src="img/2019-11-09-17-38-52.png"></div>
 
 ### 观察者模式
+- **一对多**`消息分发`
 - EventEmitter
   - `addListener()`
   - `removeEventListener()`
@@ -32,6 +32,10 @@ const geektime = new Geektime();
 geektime.addListener('newLession', (event) => console.log(event))
 // 可以无限添加listener
 ```
-- 解决问题： `object之间通信`
-  - 不知道被通知者的身份 -> 弊端：不该知道的知道了怎么办 ->直接调用
-  - 没有通知者依然继续发通知 -> 弊端：白发怎么办 -> 直接调用
+- 适用场景
+  - 无需知道被通知者的身份，无身份差别
+  - 没有容忍没有别通知者的情况下，依旧分发消息
+- 存在问题
+  - 不知道被通知者的身份 -> 机密信息泄露
+  - 没有通知者依然继续发通知 -> 造成资源浪费，行动无法执行
+  - 
