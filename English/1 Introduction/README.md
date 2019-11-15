@@ -25,12 +25,12 @@
 
 ### Role of Nodejs
 - Server
-  - 1. **Create** Sever & listen to incoming requests
-  - 2. `Business Logic`
+  - **Create** Sever & listen to incoming requests
+  - `Business Logic`
     - Access to `Database`
     - `Authentication`
     - Input `Validation`
-  - 3. Response
+  - Response
     - Return rendered HTML or JSON
 - Workflow 
   - gulp
