@@ -16,5 +16,8 @@
     "hooks": {
       "pre-commit": "yarn doctoc . --github --title \"## Table Of Content\" && git add -A"
     }
+  },
+  "dependencies": {
+    "nodemon": "^1.19.4"
   }
 }

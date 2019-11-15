@@ -1,0 +1,16 @@
+{
+  "name": "21.-koa",
+  "version": "1.0.0",
+  "description": "- 砍掉了路由 - 完美支持洋葱模型，类似于递归",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-mount": "^4.0.0",
+    "nodemon": "^1.19.4"
+  }
+}

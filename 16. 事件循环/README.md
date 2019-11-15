@@ -2,9 +2,10 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table Of Content
 
-- [Interview Questions](#interview-questions)
-- [`this` in Javascript](#this-in-javascript)
-- [Very simple Event Loop](#very-simple-event-loop)
+  - [Interview Questions](#interview-questions)
+  - [`this` in Javascript](#this-in-javascript)
+  - [Very simple Event Loop](#very-simple-event-loop)
+- [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -61,3 +62,7 @@ setTimeout(() => {
   eventloop.add(() => console.log(2))
 }, 800);
 ```
+
+## References
+- [Javascript Run Time](https://medium.com/@olinations/the-javascript-runtime-environment-d58fa2e60dd0)
+- [How a C compilter implements exception handling?](https://www.codeproject.com/Articles/2126/How-a-C-compiler-implements-exception-handling)
