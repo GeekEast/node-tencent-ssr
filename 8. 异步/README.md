@@ -60,7 +60,7 @@ interview((text) => console.log(text));
 ```
 - **Or**
 ```javascript
-// 这种方法实现了call stack的沟通，通过callback本身
+// 这种方法实现了call stack的沟通，通过callback
 function interview(callback) {
   setTimeout(
     () => {

@@ -18,7 +18,6 @@ const promise = new Promise(function(resolve, reject) => {
 promise.then(func1).catch(func2);
 ```
 
-
 ### 并发Promise
 ```javascript
 Promise.all([interview(), interview()]).then(data => console.log('Both Succeeded')).catch(console.log);
